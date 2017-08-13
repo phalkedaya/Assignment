@@ -5,11 +5,12 @@
 class FlipCoin{
 
   public static void main(String args[]){
+   
 
-/* Math.random() returns a value between 0.0 and 1.0 */
-/* so it is head or tails 50% of the time */
-
-   if(Math.random() < 0.5)
+   n=Integer.parseInt(args[0])
+   for(i=1; i<=n;i++)
+   {
+    if(Math.random() < 0.5)
 
      System.out.println("Heads");
 

@@ -1,4 +1,4 @@
-package com.bridgelabz.util;
+//package com.bridgelabz.util;
 
 class PowerOfTwo
 {
